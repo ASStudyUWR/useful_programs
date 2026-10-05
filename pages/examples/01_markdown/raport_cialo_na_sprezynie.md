@@ -6,7 +6,7 @@
 **Metoda:** rozwiązania analityczne, symulacja w Pythonie i interpretacja wykresów.  
 **Charakter danych:** przykład modelowy; wszystkie wykresy przedstawiają obliczenia, a nie pomiary laboratoryjne.
 
-Hook stwierdził, że 
+Hooke stwierdził, że 
 > siła sprężystości jest proporcjonalna do wydłużenia sprężyny. 
 > 
 
@@ -29,7 +29,7 @@ Wychylenie mówi, gdzie znajduje się ciało. Prędkość mówi, co wydarzy się
 7. [Kod i odtwarzanie wykresów](#7-kod-i-odtwarzanie-wykresów)
 8. [Jak wykonać doświadczenie](#8-jak-wykonać-doświadczenie)
 9. [Wnioski](#9-wnioski)
-10. [Źródła i elementy Markdown](#10-źródła-i-elementy-markdown)
+10. [Dalsza lektura](#10-dalsza-lektura)
 
 ---
 
@@ -111,7 +111,7 @@ x(t)=A\cos(\omega_0t+\varphi),
 A=\sqrt{x_0^2+\left(\frac{v_0}{\omega_0}\right)^2}.
 $$
 
-Dla $A>0$ fazę określa $\varphi=\operatorname{atan2}(-v_0/\omega_0,x_0)$. Funkcja `atan2` uwzględnia właściwą ćwiartkę kąta. Jeśli $A=0$, ciało pozostaje w równowadze i faza jest nieokreślona.
+Dla $A>0$ fazę określa $\varphi=\mathrm{atan2}(-v_0/\omega_0,x_0)$. Funkcja `atan2` uwzględnia właściwą ćwiartkę kąta. Jeśli $A=0$, ciało pozostaje w równowadze i faza jest nieokreślona.
 
 Różniczkowanie daje:
 
@@ -284,16 +284,15 @@ $$
 \frac{d}{dt}
 \begin{pmatrix}
 x \\
-v
+v \\
 \end{pmatrix}
-=
-\begin{pmatrix}
+= \begin{pmatrix}
 0 & 1 \\
--\omega_0^2 & 0
+-\omega_0^2 & 0 \\
 \end{pmatrix}
 \begin{pmatrix}
 x \\
-v
+v \\
 \end{pmatrix}.
 $$
 
@@ -415,7 +414,7 @@ A_{\mathrm{ust}}(\Omega)=
 $$
 
 $$
-\delta=\operatorname{atan2}(b\Omega,k-m\Omega^2).
+\delta=\mathrm{atan2}(b\Omega,k-m\Omega^2).
 $$
 
 Opóźnienie fazowe $\delta$ rośnie od $0$ do $\pi$, a dla $\Omega=\omega_0$ wynosi $\pi/2$. Przy małej częstości amplituda zbliża się do statycznego wychylenia $F_0/k$; przy dużej maleje jak $F_0/(m\Omega^2)$.
@@ -813,7 +812,7 @@ Siła okresowa podtrzymuje drgania. Dla słabego tłumienia rezonans prowadzi do
 - [x] Porównano tłumienie i charakterystyki rezonansowe.
 - [x] Udostępniono kod pozwalający odtworzyć rysunki.
 - [x] Kod sprawdza zachowanie energii i zgodność rozwiązania analitycznego z numerycznym.
-- [ ] Raport przeczytany  przez czytelnika.
+- [ ] Raport przeczytany przez czytelnika.
 
 ---
 
