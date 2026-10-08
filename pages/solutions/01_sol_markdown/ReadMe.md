@@ -6,7 +6,7 @@ Równanie Schrödingera jest centralnym elementem w fizyce kwantowej
 
 ### Równanie Schrödingera zależne od czasu
 
-Stan cząstki w reprezentacji położeniowej opisujemy za pomocą funkcji falowej $Psi(\vec{r},t)$.
+Stan cząstki w reprezentacji położeniowej opisujemy za pomocą funkcji falowej $\Psi(\vec{r},t)$.
 **Równanie Schrödingera** ma postać
 
 $$
@@ -18,7 +18,7 @@ W równaniu występują następujący wielkości:
 
 | Symbol | Znaczenie |
 | --- | --- |
-| $Psi(\vec{r},t)$ | Funkcja falowa |
+| $\Psi(\vec{r},t)$ | Funkcja falowa |
 | $\vec{r}$ | Wektor położenia |
 | $t$ | Czas|
 | $\hat{H}$ | Operator hamiltona |
