@@ -1,5 +1,12 @@
 # Fizyka kwantowa
 
-## Observable w fizyce kwantowej
+## Równanie Schrödingera
 
-### Pęd
+Równanie Schrödingera jest centralnym elementem w fizyce kwantowej
+
+### Równanie Schrödingera zależne od czasu
+
+$$
+i/hbar / frac{/partial}{/partial t}/Psi(/vec{r},t)= /hat{H}Psi(/vec{r},t)
+$$
+
