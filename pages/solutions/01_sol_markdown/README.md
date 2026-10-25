@@ -7,7 +7,7 @@ Równanie Schrödingera jest jednym z podstawowych równań mechaniki kwantowej.
 
 ### Równanie Schrödingera zależne od czasu
 
-Stan cząstki w reprezentacji położeniowej opisujemy za pomocą funkcji falowej $\Psi(\vec{r},t)$, która zależy od położenia i czasu.
+Stan cząstki w reprezentacji położeniowej opisujemy za pomocą funkcji falowej $`\Psi(\vec{r},t)`$, która zależy od położenia i czasu.
 
 **Równanie Schrödingera zależne od czasu** ma postać:
 
